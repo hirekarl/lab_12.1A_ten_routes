@@ -36,7 +36,7 @@ app.use("/api", (req, res, next) => {
   if (key && key === API_KEY) {
     next()
   } else {
-    res.status(403).send("HTTP Error 403: Forbidden!")
+    res.status(401).send("HTTP Error 401: Unauthorized!")
   }
 })
 
@@ -53,7 +53,7 @@ app.use("/boss", (req, res, next) => {
   if (currentUser && currentUser === "boss") {
     next()
   } else {
-    res.status(403).send("HTTP Error 403: Forbidden!")
+    res.status(401).send("HTTP Error 401: Unauthorized!")
   }
 })
 
