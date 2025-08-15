@@ -60,7 +60,7 @@ app.use("/boss", (req, res, next) => {
 // ROUTES
 // Root
 app.get("/", (req, res) => {
-  res.send("You have reached My Amazing App!")
+  res.send("You have reached My Amazing App! The best Pokémon is Lycanroc!")
 })
 
 // API Routes
