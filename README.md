@@ -1,4 +1,23 @@
-# Lab 12.1A: Tishana's Custom Lab
+# Lab 12.1A: Ten Routes
+
+[Karl Johnson](https://github.com/hirekarl)  
+2025-RTT-30  
+<time datetime="2025-08-15">2025-08-15</time>
+
+![Screenshot of Express server with /8ball route displayed.](./preview.png)
+
+## Overview
+### Viewer Instructions
+1. In the terminal, run:
+
+```bash
+npm i && npm run dev
+```
+
+2. Navigate to http://localhost:3333 in the browser.
+
+### Submission Source
+Top-level application behavior can be found in [`./index.js`](./index.js).
 
 ## Assignment
 Create an app with 10 routes:
