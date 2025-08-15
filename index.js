@@ -81,7 +81,7 @@ app.get("/api/jigglypuff", (req, res) => {
 })
 
 // Greeting
-app.get("/greeting/:name", (req, res) => {
+app.get("/greetings/:name", (req, res) => {
   const name = req.params.name
   res.send(`Hello, ${name}!`)
 })
